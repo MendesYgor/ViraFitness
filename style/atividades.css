@@ -1,0 +1,581 @@
+@import "../style/components/header.css";
+@import "../style/components/footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anton", sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #edefed;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(188, 51, 55);
+  border-radius: 10px;
+}
+
+/* style atividades */ 
+
+.title-atividades {
+  background-color: white;
+  text-align: center;
+  font-size: 45px;
+  padding: 40px 40px 40px;
+  padding-bottom: 0px;
+}
+
+.text-atividades {
+  width: 100vw;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  font-size: 25px;
+}
+
+.sec-image-jiu-jitsu {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );
+  width: 100vw;
+  color: white;
+}
+
+.sec-image-jiu-jitsu img {
+  width: 600px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.container-jiu-jitsu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.information-jiu-jitsu {
+  width: 700px;
+  padding-left: 160px;
+}
+
+span {
+  color: rgb(188, 51, 55);
+}
+
+.information-jiu-jitsu h2 {
+  font-size: 45px;
+}
+
+.information-jiu-jitsu p {
+  font-size: 20px;
+}
+
+.sec-image-muay-thai {
+  background-image: linear-gradient(
+    to left,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );
+  width: 100vw;
+  color: white;
+}
+
+.sec-image-muay-thai img {
+  width: 600px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.container-muay-thai {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.information-muay-thai {
+  width: 700px;
+}
+
+.information-muay-thai h2 {
+  font-size: 45px;
+}
+
+.information-muay-thai p {
+  font-size: 20px;
+}
+
+.sec-image-coletivas {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );
+  width: 100vw;
+  color: white;
+}
+
+.title-atividades-coletivas {
+  background-color: white;
+  text-align: center;
+  font-size: 45px;
+  padding: 40px 40px 40px;
+  padding-bottom: 0px;
+}
+
+
+.text-atividades-coletivas {
+  width: 100vw;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+  font-size: larger;
+}
+
+.sec-image-coletivas img {
+  width: 280px;
+  margin: 5px;
+  flex-wrap: wrap;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.container-coletivas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-images-coletivas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 650px;
+}
+
+
+.information-coletivas {
+  width: 700px;
+  padding-left: 160px;
+}
+
+.information-coletivas h2 {
+  font-size: 45px;
+}
+
+.information-coletivas p {
+  font-size: 20px;
+}
+
+.sec-image-yoga {
+  background-image: linear-gradient(
+    to left,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );
+  width: 100vw;
+  color: white;
+}
+
+.sec-image-yoga img {
+  width: 600px;
+  border: solid white;
+  border-radius: 10px;
+}
+
+.container-yoga {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.container-imagem-yoga {
+  padding-right: 25px;
+}
+
+.information-yoga {
+  width: 700px;
+}
+
+.information-yoga h2 {
+  font-size: 45px;
+}
+
+.information-yoga p {
+  font-size: 20px;
+}
+
+/* MEDIA QUERY - SCREEN */
+
+/* TEXT - ATIVIDADES */
+
+@media screen and (max-width: 325px) {
+  .title-atividades {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* JIU-JITSU*/
+@media screen and (max-width: 1030px) {
+  .sec-image-jiu-jitsu img {
+    width: 500px;
+  }
+  
+  .information-jiu-jitsu {
+    padding-left: 80px;
+  }
+
+  .information-jiu-jitsu h2 {
+    font-size: 35px;
+  }
+
+  .information-jiu-jitsu p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .information-jiu-jitsu {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sec-image-jiu-jitsu img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .sec-image-jiu-jitsu img {
+    width: 350px;
+  }
+
+  .information-jiu-jitsu h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .text-atividades {
+    text-align: center;
+  }
+  
+  .container-jiu-jitsu {
+    flex-wrap: wrap;
+  }
+
+  .information-jiu-jitsu {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .sec-image-jiu-jitsu img {
+    width: 250px;
+  }
+
+  .information-jiu-jitsu h2 {
+    font-size: 25px;
+  }
+}
+
+/* MUAY-THAI */
+@media screen and (max-width: 1030px) {
+  .sec-image-muay-thai img {
+    width: 500px;
+  }
+
+  .container-imagem-muay-thai {
+    margin: 0;
+  }
+  
+  .information-muay-thai {
+    padding-left: 80px;
+  }
+
+  .information-muay-thai h2 {
+    font-size: 35px;
+  }
+
+  .information-muay-thai p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .information-muay-thai {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .information-muay-thai {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sec-image-muay-thai img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .sec-image-muay-thai img {
+    width: 350px;
+  }
+
+  .information-muay-thai {
+    padding: 0;
+  }
+
+  .information-muay-thai h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .text-atividades {
+    text-align: center;
+  }
+  
+  .container-muay-thai {
+    flex-wrap: wrap-reverse;
+  }
+
+  .information-muay-thai {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .sec-image-muay-thai img {
+    width: 250px;
+  }
+
+  .information-muay-thai h2 {
+    font-size: 25px;
+  }
+}
+
+/* COLETIVAS */
+@media screen and (max-width: 1325px) {
+  .information-coletivas {
+    padding-left: 140px;
+  }
+}
+
+@media screen and (max-width: 1308px) {
+  .information-coletivas {
+    padding-left: 120px;
+  }
+}
+
+@media screen and (max-width: 1302px) {
+  .information-coletivas {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .sec-image-coletivas img {
+    width: 240px;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+
+  .container-images-coletivas {
+    width: 900px;
+  }
+  
+  .information-coletivas {
+    padding-left: 80px;
+  }
+
+  .information-coletivas h2 {
+    font-size: 35px;
+  }
+
+  .information-coletivas p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+
+    .sec-image-coletivas img {
+    width: 165px;
+    margin: 5px;
+    flex-wrap: wrap;
+  }
+
+  .container-images-coletivas {
+    width: 1000px;
+  }
+  
+  .information-coletivas {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .container-coletivas {
+    flex-wrap: wrap;
+  }
+
+  .container-images-coletivas {
+    /* max-width: 500px */
+  }
+
+  .sec-image-coletivas img {
+    width: 145px;
+    margin: 5px;
+  }
+
+  .information-coletivas {
+    width: 50%;
+    padding: 0;
+  }
+
+  .information-coletivas h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-images-coletivas {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* YOGA */
+@media screen and (max-width: 980px) {
+  .information-yoga {
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sec-image-yoga img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .sec-image-yoga img {
+    width: 350px;
+  }
+
+  .information-yoga {
+    padding: 0;
+  }
+
+  .information-yoga h2 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .text-atividades {
+    text-align: center;
+  }
+  
+  .container-yoga {
+    flex-wrap: wrap-reverse;
+  }
+
+  .information-yoga {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .sec-image-yoga img {
+    width: 250px;
+  }
+
+  .information-yoga h2 {
+    font-size: 25px;
+  }
+}
+
+/* FOOTER */
+@media screen and (max-width: 1000px) {
+  .footer {
+    gap: 20px;
+  }
+
+  .container-googlemap {
+    width: 100%;
+  }
+}

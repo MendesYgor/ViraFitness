@@ -1,0 +1,19 @@
+@media screen and (max-width: 1145px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    gap: 20px;
+  }
+
+  .container-googlemap {
+    width: 100%;
+  }
+}

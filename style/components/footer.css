@@ -1,0 +1,63 @@
+footer {
+  background-color: rgb(188, 51, 55);
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  max-width: 1900px;
+  padding: 20px;
+  margin: auto;
+}
+
+.foot-schedule hr {
+  width: 17.5em;
+}
+
+.foot-name {
+  width: 17.5em;
+}
+
+.foot-name p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot-title h1 {
+  font-size: 40px;
+}
+
+.foot-schedule h1 {
+  font-size: 40px;
+}
+
+.p-hours {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot-contact {
+  height: 100%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 0.93em;
+  list-style: none;
+  padding-block: 1.5rem;
+}
+
+.social-media a i {
+  color: white;
+}
+
+.container-googlemap {
+  border: solid white;
+  border-radius: 5px;
+}
+
+.googlemap {
+  width: 100%;
+  height: 100%;
+}
