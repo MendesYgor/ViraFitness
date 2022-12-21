@@ -189,6 +189,15 @@ main {
     max-width: 280px;
   }
 
+  .secondary-content {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .title-data {
+    font-size: 1em;
+  }
+
   .svg {
     width: 280px;
   }
