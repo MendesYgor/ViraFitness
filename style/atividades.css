@@ -202,8 +202,9 @@ span {
   width: 650px;
 }
 
-
 .information-coletivas {
+  display: flex;
+  flex-direction: column;
   width: 700px;
   padding-left: 160px;
 }
@@ -268,11 +269,10 @@ span {
 /* MEDIA QUERY - SCREEN */
 
 /* TEXT - ATIVIDADES */
-
 @media screen and (max-width: 325px) {
   .title-atividades {
     text-align: center;
-    padding: 0;
+    padding: 40px 0px 0px 0px;
   }
 }
 
@@ -519,6 +519,12 @@ span {
   }
 }
 
+@media screen and (max-width: 325) {
+  .information-coletivas {
+    text-align: center;
+  }
+}
+
 /* YOGA */
 @media screen and (max-width: 980px) {
   .information-yoga {
@@ -566,6 +572,10 @@ span {
 
   .information-yoga h2 {
     font-size: 25px;
+  }
+
+  .information-yoga p {
+    font-size: 15px;
   }
 }
 

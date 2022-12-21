@@ -10,5 +10,3 @@ btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 
 
-//How to create a hamburger menu function?
-

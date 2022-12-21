@@ -192,6 +192,7 @@ main {
   .secondary-content {
     text-align: center;
     justify-content: center;
+    padding-top: 0;
   }
 
   .title-data {
