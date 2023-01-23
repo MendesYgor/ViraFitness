@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 25px;
 }
 
-.sec-image-jiu-jitsu {
+.sec-image-musculação {
   background-image: linear-gradient(
     to right,
     #000000,
@@ -66,37 +66,33 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
-.sec-image-jiu-jitsu img {
+.sec-image-musculação img {
   width: 600px;
   border: solid white;
   border-radius: 10px;
 }
 
-.container-jiu-jitsu {
+.container-musculação {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  gap: 20px;
 }
 
-.information-jiu-jitsu {
+.information-musculação {
   width: 700px;
-  padding-left: 160px;
 }
 
-span {
-  color: rgb(188, 51, 55);
+.information-musculação h2 {
+  font-size: 42px;
 }
 
-.information-jiu-jitsu h2 {
-  font-size: 45px;
-}
-
-.information-jiu-jitsu p {
+.information-musculação p {
   font-size: 20px;
 }
 
-.sec-image-muay-thai {
+.sec-image-artes_marciais {
   background-image: linear-gradient(
     to left,
     #000000,
@@ -116,28 +112,40 @@ span {
   color: white;
 }
 
-.sec-image-muay-thai img {
-  width: 600px;
+.container-imagem-artes_marciais {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.sec-image-artes_marciais img {
+  width: 400px;
+  height: 300px;
   border: solid white;
   border-radius: 10px;
 }
 
-.container-muay-thai {
+.container-artes_marciais {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 50px;
   padding: 20px;
 }
 
-.information-muay-thai {
+.information-artes_marciais {
   width: 700px;
 }
 
-.information-muay-thai h2 {
+span {
+  color: rgb(188, 51, 55);
+}
+
+.information-artes_marciais h2 {
   font-size: 45px;
 }
 
-.information-muay-thai p {
+.information-artes_marciais p {
   font-size: 20px;
 }
 
@@ -168,7 +176,6 @@ span {
   padding: 40px 40px 40px;
   padding-bottom: 0px;
 }
-
 
 .text-atividades-coletivas {
   width: 100vw;
@@ -276,122 +283,118 @@ span {
   }
 }
 
-/* JIU-JITSU*/
+/* MUSCULACAO */
 @media screen and (max-width: 1030px) {
-  .sec-image-jiu-jitsu img {
-    width: 500px;
+  .sec-image-musculação img {
+    width: 400px;
   }
   
-  .information-jiu-jitsu {
-    padding-left: 80px;
-  }
-
-  .information-jiu-jitsu h2 {
+  .information-musculação h2 {
     font-size: 35px;
   }
 
-  .information-jiu-jitsu p {
+  .information-musculação p {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 980px) {
-  .information-jiu-jitsu {
-    padding-left: 70px;
-  }
-}
-
 @media screen and (max-width: 900px) {
-  .sec-image-jiu-jitsu img {
+  .sec-image-musculação img {
     width: 400px;
   }
 }
 
 @media screen and (max-width: 805px) {
-  .sec-image-jiu-jitsu img {
+  .sec-image-musculação img {
     width: 350px;
   }
 
-  .information-jiu-jitsu h2 {
+  .information-musculação h2 {
     font-size: 35px;
   }
 }
 
-@media screen and (max-width: 535px) {
-  .text-atividades {
-    text-align: center;
-  }
-  
-  .container-jiu-jitsu {
-    flex-wrap: wrap;
-  }
-
-  .information-jiu-jitsu {
-    text-align: center;
-    padding: 0;
-  }
-  
-  .sec-image-jiu-jitsu img {
-    width: 250px;
-  }
-
-  .information-jiu-jitsu h2 {
+@media screen and (max-width: 685px) {
+  .information-musculação h2 {
     font-size: 25px;
   }
 }
 
-/* MUAY-THAI */
-@media screen and (max-width: 1030px) {
-  .sec-image-muay-thai img {
-    width: 500px;
+@media screen and (max-width: 535px) {
+  .text-atividades {
+    text-align: center;
   }
 
-  .container-imagem-muay-thai {
-    margin: 0;
+  .sec-image-musculação {
+    background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );;
   }
   
-  .information-muay-thai {
-    padding-left: 80px;
+  .container-musculação {
+    flex-wrap: wrap;
   }
 
-  .information-muay-thai h2 {
+  .information-musculação {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .sec-image-musculação img {
+    width: 250px;
+  }
+
+  .information-musculação h2 {
+    font-size: 25px;
+  }
+}
+
+/* ARTES MARCIAIS*/
+@media screen and (max-width: 1030px) {
+  .sec-image-artes_marciais img {
+    width: 400px;
+  }
+
+  .information-artes_marciais h2 {
     font-size: 35px;
   }
 
-  .information-muay-thai p {
+  .information-artes_marciais p {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 980px) {
-  .information-muay-thai {
-    padding-left: 70px;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .information-muay-thai {
-    padding-left: 70px;
-  }
-}
-
 @media screen and (max-width: 900px) {
-  .sec-image-muay-thai img {
+  .sec-image-artes_marciais img {
     width: 400px;
   }
 }
 
 @media screen and (max-width: 805px) {
-  .sec-image-muay-thai img {
+  .sec-image-artes_marciais img {
     width: 350px;
   }
 
-  .information-muay-thai {
-    padding: 0;
-  }
-
-  .information-muay-thai h2 {
+  .information-artes_marciais h2 {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .information-artes_marciais h2 {
+    font-size: 25px;
   }
 }
 
@@ -399,21 +402,39 @@ span {
   .text-atividades {
     text-align: center;
   }
+
+  .sec-image-artes_marciais {
+    background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );;
+  }
   
-  .container-muay-thai {
-    flex-wrap: wrap-reverse;
+  .container-artes_marciais {
+    flex-wrap:wrap-reverse;
   }
 
-  .information-muay-thai {
+  .information-artes_marciais {
     text-align: center;
     padding: 0;
   }
   
-  .sec-image-muay-thai img {
+  .container-imagem-artes_marciais img {
     width: 250px;
   }
 
-  .information-muay-thai h2 {
+  .information-artes_marciais h2 {
     font-size: 25px;
   }
 }
@@ -472,7 +493,6 @@ span {
 }
 
 @media screen and (max-width: 770px) {
-
     .sec-image-coletivas img {
     width: 165px;
     margin: 5px;
@@ -493,10 +513,6 @@ span {
     flex-wrap: wrap;
   }
 
-  .container-images-coletivas {
-    /* max-width: 500px */
-  }
-
   .sec-image-coletivas img {
     width: 145px;
     margin: 5px;
@@ -512,6 +528,26 @@ span {
   }
 }
 
+@media screen and (max-width: 535px) {
+  .sec-image-coletivas {
+    background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .container-images-coletivas {
     flex-wrap: wrap;
@@ -521,6 +557,7 @@ span {
 
 @media screen and (max-width: 325) {
   .information-coletivas {
+    /* display: flex; */
     text-align: center;
   }
 }
@@ -556,6 +593,24 @@ span {
   .text-atividades {
     text-align: center;
   }
+
+  .sec-image-yoga {
+    background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #0c0b0b,
+    #141314,
+    #1b191a,
+    #211f21,
+    #272427,
+    #2d2a2d,
+    #332f34,
+    #39353c,
+    #3f3c44,
+    #45434c,
+    #4b4a54
+  );;
+  }
   
   .container-yoga {
     flex-wrap: wrap-reverse;
@@ -576,6 +631,10 @@ span {
 
   .information-yoga p {
     font-size: 15px;
+  }
+
+  .container-imagem-yoga {
+    padding: 0;
   }
 }
 
