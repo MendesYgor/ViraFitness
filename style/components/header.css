@@ -75,7 +75,7 @@ nav ul li a {
   }
 
   #nav.active .links {
-    height: 69vh;
+    height: 300%;
     visibility: visible;
   }
   .links li {

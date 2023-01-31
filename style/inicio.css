@@ -39,8 +39,8 @@ main {
   background-repeat: no-repeat; */
 
   background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 0.8)), url(../images/INDEX/WhatsApp\ Image\ 2022-08-08\ at\ 12.10.52.jpeg);
-	background-position: center;
-  background-size: cover;
+	background-position:center;
+  background-size:cover;
   background-repeat: no-repeat;
 
 }
